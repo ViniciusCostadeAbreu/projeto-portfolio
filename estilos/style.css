@@ -109,3 +109,31 @@ div#social a{
 div#social a:hover{
   color: var(--destaque-inverso);
 }
+
+section#detalhes{
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+  grid-column: 2;
+}
+
+article#video{
+
+}
+
+.video-container{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  border-radius: 8px;
+  aspect-ratio: 16/9;
+}
+
+.video-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
